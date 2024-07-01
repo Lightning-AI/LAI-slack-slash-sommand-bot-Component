@@ -5,6 +5,7 @@ r"""To test a lightning app:
 3. in run_once, come up with a way to verify the behavior you wanted.
 run_once runs your app through one cycle of the event loop and then terminates
 """
+
 import io
 import os
 from contextlib import redirect_stdout
